@@ -51,4 +51,8 @@ public class BaseFunc {
         System.out.println(artName);
         Assertions.assertEquals(articleNameHomePage, artName, "Article name in Home Page is not the same as article name in Article Page");
     }
+
+    public void navigateBack() {
+        driver.navigate().back();
+    }
 }

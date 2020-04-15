@@ -28,6 +28,8 @@ public class FrontTest {
 //            System.out.println(articleName);
             baseFunc.clickElement(homePage.ARTICLE_NAME);
             baseFunc.compareArticleName(articleName, articlePage.ARTICLE_NAME);
+            System.out.println("Checked");
+            baseFunc.navigateBack();
         }
     }
 
