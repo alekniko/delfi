@@ -47,9 +47,8 @@ public class BaseFunc {
     public void compareArticleName(String articleNameHomePage, By articleNameArtPage) {
         waitElementIsVisible(articleNameArtPage);
         String artName = driver.findElement(articleNameArtPage).getText();
-        System.out.println(articleNameHomePage);
-        System.out.println(artName);
         Assertions.assertEquals(articleNameHomePage, artName, "Article name in Home Page is not the same as article name in Article Page");
+        System.out.println("Article name checked OK");
     }
 
     public void navigateBack() {

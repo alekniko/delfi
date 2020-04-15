@@ -4,7 +4,7 @@ import front.core.BaseFunc;
 import org.openqa.selenium.By;
 
 public class ArticlePage {
-    public final By ARTICLE_NAME = By.xpath("//div[contains(@class,'article-title')]");
+    public final By ARTICLE_NAME = By.xpath("//div[contains(@class,'article-title')]/h1");
 
     private BaseFunc baseFunc;
 

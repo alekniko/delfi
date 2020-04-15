@@ -11,7 +11,8 @@ import java.util.List;
 
 public class HomePage {
 
-    public final By ARTICLE_NAME = By.tagName("article");
+    public final By ARTICLE = By.tagName("article");
+    public final By ARTICLE_NAME = By.xpath("//article/div/div/span/a/h1");
 //    public final By ARTICLE_NAME = By.xpath(".//span[@class='text-size-22 d-block']");
 
     private BaseFunc baseFunc;
@@ -22,7 +23,7 @@ public class HomePage {
 
     public List<WebElement> getArticles(int count) {
 
-        List<WebElement> articles = baseFunc.getElements(ARTICLE_NAME);
+        List<WebElement> articles = baseFunc.getElements(ARTICLE);
 //        List<WebElement> returnedArticles = new ArrayList<WebElement>();
 //        for (int i = 0; i < count; i++) {
 //            returnedArticles.add(articles.get(i));
