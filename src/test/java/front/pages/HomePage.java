@@ -11,7 +11,7 @@ import java.util.List;
 
 public class HomePage {
 
-    public final By ARTICLE = By.tagName("article");
+    public final By ARTICLE = By.xpath("//div/article");
     public final By ARTICLE_NAME = By.xpath("//article/div/div/span/a/h1");
     public final By ARTICLE_COMMENT_COUNT = By.xpath("//article/div/div/span/a[2]");
 //    public final By ARTICLE_NAME = By.xpath(".//span[@class='text-size-22 d-block']");
