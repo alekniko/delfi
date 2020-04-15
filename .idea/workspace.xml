@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13af5c3f-1b54-4a31-ba23-ab79f2e1c0fd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YnDKrUPLHxZowy706BmzZw1ArK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="FrontTest.someTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ctco" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="front.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="front" />
+      <option name="MAIN_CLASS_NAME" value="front.FrontTest" />
+      <option name="METHOD_NAME" value="someTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FrontTest.someTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13af5c3f-1b54-4a31-ba23-ab79f2e1c0fd" name="Default Changelist" comment="" />
+      <created>1583569403866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583569403866</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="192" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583570711073">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="192" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1474.864@0.0.1474.864" timestamp="1583570711073" />
+    <state x="543" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1583571382118">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="543" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1583571382118" />
+    <state x="518" y="187" key="FileChooserDialogImpl" timestamp="1586937356637">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="518" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1586937356637" />
+    <state width="1431" height="358" key="GridCell.Tab.0.bottom" timestamp="1586936994077">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1815" height="224" key="GridCell.Tab.0.bottom/-1920.0.1858.1080/0.0.1858.1080/1920.0.1536.834@0.0.1858.1080" timestamp="1583741530408" />
+    <state width="1431" height="358" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1586936994077" />
+    <state width="1431" height="358" key="GridCell.Tab.0.center" timestamp="1586936994077">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1815" height="224" key="GridCell.Tab.0.center/-1920.0.1858.1080/0.0.1858.1080/1920.0.1536.834@0.0.1858.1080" timestamp="1583741530408" />
+    <state width="1431" height="358" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1586936994077" />
+    <state width="1431" height="358" key="GridCell.Tab.0.left" timestamp="1586936994077">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1815" height="224" key="GridCell.Tab.0.left/-1920.0.1858.1080/0.0.1858.1080/1920.0.1536.834@0.0.1858.1080" timestamp="1583741530408" />
+    <state width="1431" height="358" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1586936994077" />
+    <state width="1431" height="358" key="GridCell.Tab.0.right" timestamp="1586936994077">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1815" height="224" key="GridCell.Tab.0.right/-1920.0.1858.1080/0.0.1858.1080/1920.0.1536.834@0.0.1858.1080" timestamp="1583741530408" />
+    <state width="1431" height="358" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1586936994077" />
+    <state x="268" y="87" key="Maven.ArtifactSearchDialog" timestamp="1586934585818">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="268" y="87" key="Maven.ArtifactSearchDialog/0.0.1474.864@0.0.1474.864" timestamp="1586934585818" />
+    <state x="246" y="75" key="SettingsEditor" timestamp="1583573353839">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="246" y="75" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1583573353839" />
+    <state x="434" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1583569410617">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="434" y="256" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1583569410617" />
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1583572147555">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1583572147555" />
+  </component>
+</project>
