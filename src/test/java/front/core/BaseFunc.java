@@ -48,7 +48,18 @@ public class BaseFunc {
         waitElementIsVisible(articleNameArtPage);
         String artName = driver.findElement(articleNameArtPage).getText();
         Assertions.assertEquals(articleNameHomePage, artName, "Article name in Home Page is not the same as article name in Article Page");
+        System.out.println(articleNameHomePage);
+        System.out.println(artName);
         System.out.println("Article name checked OK");
+    }
+
+    public void compareCommentCount(int commentHomePage, By commentArticlePage) {
+        waitElementIsVisible(commentArticlePage);
+        int count = Integer.parseInt(driver.findElement(commentArticlePage).getText().replace("(","").replace(")", ""));
+        Assertions.assertEquals(commentHomePage, count, "Article name in Home Page is not the same as article name in Article Page");
+        System.out.println(commentHomePage);
+        System.out.println(count);
+        System.out.println("Comment count checked OK");
     }
 
     public void navigateBack() {

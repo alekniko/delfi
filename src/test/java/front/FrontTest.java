@@ -28,11 +28,13 @@ public class FrontTest {
 
         for (WebElement e : articleList) {
             String artName = e.findElement(homePage.ARTICLE_NAME).getText();
+            Integer commentCount = Integer.parseInt(e.findElement(homePage.ARTICLE_COMMENT_COUNT).getText().replace("(","").replace(")", ""));
             baseFunc.clickElement(homePage.ARTICLE);
             baseFunc.compareArticleName(artName, articlePage.ARTICLE_NAME);
+            baseFunc.compareCommentCount(commentCount, articlePage.COMMENT_COUNT);
             baseFunc.navigateBack();
             baseFunc.waitElementIsVisible(homePage.ARTICLE);
-            System.out.println("Done");
+            System.out.println("Done\n\n====================");
         }
     }
 }
